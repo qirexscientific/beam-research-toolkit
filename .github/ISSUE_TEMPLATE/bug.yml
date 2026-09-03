@@ -1,0 +1,53 @@
+name: Bug
+description: Something in Beam crashed, looked wrong, or failed to export.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. The application source is private; this form is how we fix v1.x.
+        Do not paste license keys, emails of other people, or datasets you cannot share.
+  - type: input
+    id: version
+    attributes:
+      label: Beam version
+      placeholder: "1.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Linux (Ubuntu 22.04 or equivalent)
+        - Linux (other)
+        - macOS 13+ Apple Silicon
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What did you do?
+      placeholder: Configure a run, hit simulate, open the 3D dose view…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened instead?
+      placeholder: Crash, blank view, export missing a field, error text…
+    validations:
+      required: true
+  - type: textarea
+    id: extras
+    attributes:
+      label: Anything else?
+      description: Screenshot, export format, physics list if you know it, log snippet. Strip personal paths if you can.

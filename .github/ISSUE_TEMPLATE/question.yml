@@ -1,0 +1,32 @@
+name: Question
+description: First-run help, “is Beam for me?”, or what a view means.
+title: "[Question] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        New to GEANT4 or particle physics? That is a valid reason to open this.
+        We will not write your homework, but we will help you get a run on screen and read it.
+  - type: dropdown
+    id: level
+    attributes:
+      label: How much GEANT4 have you used?
+      options:
+        - Never heard of it until Beam
+        - Heard of it, never compiled it
+        - I have run examples
+        - I use it in research or production
+    validations:
+      required: true
+  - type: textarea
+    id: ask
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: What you already tried
+      description: Optional. Download page, a tutorial, a screenshot…

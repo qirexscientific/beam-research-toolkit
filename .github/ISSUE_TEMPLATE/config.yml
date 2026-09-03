@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Download Beam Research Toolkit
+    url: https://qirexscientific.com/downloads.html
+    about: Linux AppImage and macOS Apple Silicon builds
+  - name: Billing, trial, or account email
+    url: mailto:support@qirexscientific.com
+    about: Do not post payment or license details in a public issue
+  - name: Product website
+    url: https://qirexscientific.com/
+    about: What Beam is, pricing, and company information

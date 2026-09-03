@@ -1,0 +1,31 @@
+Copyright (c) 2026 Qirex Scientific OÜ. All rights reserved.
+
+Beam Research Toolkit (the "Software") is proprietary software of Qirex
+Scientific OÜ, Tallinn, Estonia (registry code 17485177).
+
+This GitHub repository does not contain the source code of the Software.
+Files in this repository (documentation, screenshots, issue templates)
+are provided so that users can learn about the Software and report
+problems.
+
+You may:
+
+- view and share links to this repository
+- quote short passages of the documentation with attribution
+- use the public issue tracker according to GitHub's terms
+
+You may not:
+
+- copy, redistribute, reverse engineer, decompile, or modify the Software
+  except as allowed by your license with Qirex Scientific OÜ
+- treat screenshots, trademarks, or the Qirex / Beam names as your own
+- represent this repository as an open-source release of Beam
+
+Use of the Software is governed by the Qirex Scientific Terms of Service
+and the license presented in the application:
+
+https://qirexscientific.com/terms.html
+
+Download official builds only from:
+
+https://qirexscientific.com/downloads.html

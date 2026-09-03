@@ -1,0 +1,41 @@
+name: Feature
+description: A workflow Beam should support next.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us the job you are trying to finish. “Make it more powerful” is harder to ship than “export X so I can load it in Y.”
+  - type: dropdown
+    id: who
+    attributes:
+      label: You are mostly
+      options:
+        - Student / self-learning
+        - Instructor / teaching a lab
+        - Working researcher or engineer
+        - Lab or company evaluating Beam
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: job
+    attributes:
+      label: What are you trying to get done?
+      placeholder: e.g. Compare two shielding geometries and hand a dose map to a colleague in ParaView.
+    validations:
+      required: true
+  - type: textarea
+    id: today
+    attributes:
+      label: How do you do that today?
+      description: Inside Beam, in raw GEANT4, in a script, or you cannot do it yet.
+    validations:
+      required: true
+  - type: textarea
+    id: wish
+    attributes:
+      label: What should Beam do instead?
+    validations:
+      required: true
