@@ -28,7 +28,7 @@ If you do not: GEANT4 is the toolkit CERN and labs use to simulate how particles
 
 ---
 
-## What you can do in v1.0
+## What you can do in v1.0.1
 
 - Configure and run a beam simulation with embedded GEANT4 — no separate install
 - Explore events in 3D with nearest-neighbor filtering and event isolation
@@ -51,8 +51,8 @@ Official builds live on the Qirex site. Do not expect a binary attached to every
 
 | Platform | Build | Link |
 |---|---|---|
-| Linux x86_64 | AppImage | [Download Linux v1.0](https://downloads.qirexscientific.com/releases/linux/1.0/Beam_Research_Toolkit-x86_64.AppImage) |
-| macOS Apple Silicon | Notarized `.app` in zip | [Download macOS v1.0](https://downloads.qirexscientific.com/releases/mac/1.0/Beam_Research_Toolkit-macos-arm64.zip) |
+| Linux x86_64 | AppImage | [Download Linux v1.0.1](https://downloads.qirexscientific.com/releases/linux/1.0.1/Beam_Research_Toolkit-1.0.1-x86_64.AppImage) |
+| macOS Apple Silicon | Notarized `.app` in zip | [Download macOS v1.0.1](https://downloads.qirexscientific.com/releases/mac/1.0.1/Beam_Research_Toolkit-macos-arm64.zip) |
 
 Requirements and GPG / Gatekeeper notes: [qirexscientific.com/downloads.html](https://qirexscientific.com/downloads.html)
 
@@ -65,7 +65,7 @@ chmod +x Beam_Research_Toolkit-x86_64.AppImage
 
 **macOS (short path)**  
 Unzip → drag to Applications → open (right-click → Open the first time if Gatekeeper asks).  
-Requires macOS 13+ on Apple Silicon. Intel Macs are not supported in v1.0.
+Requires macOS 13+ on Apple Silicon. Intel Macs are not supported in v1.0.1.
 
 ---
 
@@ -77,7 +77,7 @@ Requires macOS 13+ on Apple Silicon. Intel Macs are not supported in v1.0.
 
 The website does not start a subscription. Sign-up and billing happen in Beam. After you log in from the app, [the account page](https://qirexscientific.com/account.html) can show status and open the Stripe billing portal.
 
-The Research service funds the next physics lists, exporters, platforms, and fixes. That is how a serious tool stays past v1.0.
+The Research service funds the next physics lists, exporters, platforms, and fixes. Your support helps us build the tools of tomorrow!
 
 ---
 

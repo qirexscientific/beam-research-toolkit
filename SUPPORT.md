@@ -7,7 +7,7 @@ Beam Research Toolkit is a commercial desktop app. This public repository is for
 Use [GitHub Issues](../../issues) with the right template:
 
 - **Bug** — crashes, wrong plots, failed exports, install/launch problems
-- **Feature** — a workflow you cannot complete in v1.0
+- **Feature** — a workflow you cannot complete yet
 - **Question** — first-run confusion, “is this for students?”, GEANT4-in-Beam orientation
 
 We read these. A short reproduction beats a long theory.
