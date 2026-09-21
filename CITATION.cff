@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use Beam Research Toolkit in research or teaching, please cite it using these metadata."
+type: software
+title: "Beam Research Toolkit"
+version: "1.0.2"
+date-released: "2026-09-07"
+abstract: "Desktop application with an embedded Geant4 runtime for configuring particle-beam simulations, inspecting hits, trajectories and dose, and exporting results to DICOM RT Dose, CSV, JSON, ROOT, ParaView and VTU — without compiling Geant4."
+license: "LicenseRef-Qirex-Proprietary"
+license-url: "https://qirexscientific.com/terms.html"
+url: "https://qirexscientific.com/"
+repository-code: "https://github.com/qirexscientific/beam-research-toolkit"
+repository-artifact: "https://qirexscientific.com/downloads.html"
+doi: "10.5281/zenodo.22672079"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.22672079"
+    description: "This version (and the current Zenodo version DOI)."
+  - type: doi
+    value: "10.5281/zenodo.22672078"
+    description: "Concept DOI that resolves to the latest version."
+  - type: url
+    value: "https://qirexscientific.com/"
+    description: "Product homepage."
+authors:
+  - name: "Qirex Scientific OÜ"
+    website: "https://qirexscientific.com/"
+    city: "Tallinn"
+    country: EE
+    email: "support@qirexscientific.com"
+  - family-names: Turvey
+    given-names: Luke William
+    affiliation: "Qirex Scientific OÜ"
+    email: "support@qirexscientific.com"
+contact:
+  - name: "Qirex Scientific OÜ"
+    email: "support@qirexscientific.com"
+    website: "https://qirexscientific.com/"
+keywords:
+  - Geant4
+  - Monte Carlo
+  - particle beam
+  - dose
+  - DICOM RT Dose
+  - ROOT
+  - ParaView
+  - VTU
+  - medical physics
+  - radiation transport
+preferred-citation:
+  type: software
+  title: "Beam Research Toolkit"
+  version: "1.0.2"
+  year: 2026
+  month: 9
+  doi: "10.5281/zenodo.22672079"
+  url: "https://doi.org/10.5281/zenodo.22672079"
+  publisher:
+    name: "Zenodo"
+  authors:
+    - name: "Qirex Scientific OÜ"
+      city: "Tallinn"
+      country: EE
+    - family-names: Turvey
+      given-names: Luke William
+      affiliation: "Qirex Scientific OÜ"
