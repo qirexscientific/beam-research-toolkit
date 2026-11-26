@@ -71,3 +71,10 @@ Requirements and GPG / Gatekeeper notes: [qirexscientific.com/downloads.html](ht
 ```bash
 chmod +x Beam_Research_Toolkit-1.1.0-x86_64.AppImage
 ./Beam_Research_Toolkit-1.1.0-x86_64.AppImage
+```
+
+macOS (short path)
+
+Unzip → drag to Applications → open (right-click → Open the first time if Gatekeeper asks).
+
+Requires macOS 13+ on Apple Silicon. Intel Macs are not supported in v1.1.0.
